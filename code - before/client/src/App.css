@@ -1,0 +1,44 @@
+*{
+    /* border: 1px solid red; */
+}
+.TheBgImage{
+    background-image: url('./assets/herobg10.jpg');
+    /* background-image: url('./assets/herobg5.jpg'); */
+    background-position: center;
+    background-size: cover;
+}
+/* 897 */
+@media screen and (max-width: 897px) {
+    .HeroSection{
+        text-align: center;
+        width: 100%;
+    }
+    .TheBgImage{
+        display: none;
+    }
+    .TheLocations{
+        justify-content: center;
+    }
+    .TheLocations > *{
+        width: 100%;
+    }
+    
+  }
+@media screen and (max-width:860px) {
+    .TheMainLogo{
+        display: none;
+    }
+}
+.HerSectionForAbout{
+    background-image: url('./assets/AboutSection2.jpg');
+    background-size: cover;
+    box-shadow: inset 0px 0px 200px 20px black;
+}
+.bgDarkColor{
+    background-color: rgba(0, 0, 0, 0.342);
+}
+.AboutrtxImage{
+    background-image: url('./assets/rtximage.jpg');
+    background-size: cover;
+    padding: 100px;
+}

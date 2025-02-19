@@ -17,8 +17,8 @@ const Navbar = () => {
                 </div>
 
                 <div className='flex w-full md:w-auto justify-center md:justify-end gap-2'>
-                    <Signup />
                     <Login />
+                    <Signup />
                 </div>
 
             </div>

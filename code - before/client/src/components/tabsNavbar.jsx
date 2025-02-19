@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-
-const TabsNavbar = () => {
+const TabsNavbar = (props) => {
     const [activeTab, setActiveTab] = useState("Home");
 
     function handleClick(tabName) {
@@ -14,7 +13,7 @@ const TabsNavbar = () => {
                     key={tab} 
                     onClick={() => handleClick(tab)} 
                     className={`p-3 rounded-xl flex items-center justify-center w-max gap-2 select-none cursor-pointer duration-300 
-                        ${activeTab === tab ? "bg-[#f1f0f5]" : "hover:bg-[#f1f0f5]"}`}
+                        ${activeTab === tab ? "bg-[#c1c7e9a4]" : "hover:bg-[#c1c7e9a4]"}`}
                 >
                     {tab === "Home" && <img src="./assets/home.svg" className='w-5 h-5' alt="Home Icon" />}
                     <span>{tab}</span>
