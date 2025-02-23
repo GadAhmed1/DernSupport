@@ -42,3 +42,56 @@
     background-size: cover;
     padding: 100px;
 }
+.TheCardsImage{
+    background-image: url('./assets/AboutUsImage1.jpg');
+    background-size: cover;
+}
+@media screen and (max-width: 706px) {
+    .AboutrtxImage{
+        display: none;
+    }
+    .TheCompuTextPart{
+        width: 90%;
+    }
+  }
+  @media screen and (max-width: 951px) {
+    .TheCardsImage{
+        display: none;
+    }
+    .TheCardsBody{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .TheCardsBody {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  .imgNum1{
+    background-image: url('./assets/intel1.png');
+  }
+  .hr-with-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+.hr-with-text::before,
+.hr-with-text::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #000; /* لون الخط */
+    margin: 0 10px;
+}
+
+.hr-with-text span {
+    white-space: nowrap;
+    font-weight: bold;
+    color: #555;
+}
+.TheInputConfig:focus{
+    /* border: black; */
+}

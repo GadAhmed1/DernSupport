@@ -8,7 +8,7 @@ const Footer = () => {
     };
 
     return (
-        <div className="p-5 bg-white rounded-xl m-3">
+        <div className="p-5 bg-white rounded-xl m-3 select-none">
             <div className='flex flex-wrap justify-around align-baseline items-baseline'>
 
                 <p className="text-lg font-semibold">Dern Support</p>
