@@ -166,3 +166,9 @@
  .WidthEditContacT{
     width: 100%;
  }
+ .active{
+    background-color: #d7dbf1;
+ }
+ .hEdit{
+    height: 60vh;
+ }

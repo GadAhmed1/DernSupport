@@ -93,7 +93,7 @@ const ContactUsSection = () => {
                     </div>
                 </form>
             </div>
-            <div 
+            {/* <div 
             className="p-6 bg-white border-gray-200 rounded-lg shadow-sm text-black border  w-4/12 mx-auto">
                 <p className='text-4xl my-3'>
                     📞
@@ -127,7 +127,7 @@ const ContactUsSection = () => {
                         />
                     </svg>
                 </a>
-            </div>
+            </div> */}
 
         </div>
     );
