@@ -95,3 +95,74 @@
 .TheInputConfig:focus{
     /* border: black; */
 }
+.TheInputWidth{
+    width: 100%;
+}
+.EditTop{
+    top: px;
+}
+.WidthOfForm{
+    min-width: 30%;
+    max-width: 30%;
+}
+@media screen and (max-width: 1139px) {
+    .WidthOfForm{
+        min-width: 30%;
+        max-width: 40%;
+    }   
+  }
+@media screen and (max-width: 862px) {
+    .WidthOfForm{
+        min-width: 30%;
+        max-width: 50%;
+    }   
+  }
+  @media screen and (max-width: 718px) {
+    .WidthOfForm{
+        min-width: 30%;
+        max-width: 70%;
+    }   
+  }
+  @media screen and (max-width: 495px) {
+    .WidthOfForm{
+        min-width: 30%;
+        max-width: 90%;
+    }   
+  }
+  .InputWidth{
+    width: 100%;
+  }
+  .ManTransation:focus{
+    border: 1px solid red;
+    transition: all .3s linear;
+  }
+  .imagecontact{
+    background-image: url('./assets/ContactTown.jpg');
+    background-size: cover;
+    height: 600px;  
+  }
+  @media screen and (max-width: 1026px) {
+     .imagecontact{
+        display: none;
+     }
+     .FormPart{
+        width: 100%;
+     }
+  }
+  @media screen and (max-width: 631px) {
+    .imagecontact{
+       display: none;
+    }
+    .FormPart{
+       width: 100%;
+    }
+    .FlexWraPEdit{
+        width: 100%;
+    }
+    .FlexWrapParent{
+        flex-wrap: wrap;
+    }
+ }
+ .WidthEditContacT{
+    width: 100%;
+ }
